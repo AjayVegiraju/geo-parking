@@ -1,0 +1,17 @@
+.contact-us {
+    background: #fff;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .contact-us h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-us p {
+    font-size: 1.125rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  

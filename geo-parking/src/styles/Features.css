@@ -1,0 +1,32 @@
+.features {
+    background: #f4f4f4;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .features p {
+    font-size: 1.125rem;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+  
+  .features button {
+    background: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .features button:hover {
+    background: #e68900;
+  }
+  

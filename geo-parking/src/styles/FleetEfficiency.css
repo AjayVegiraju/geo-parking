@@ -1,0 +1,112 @@
+/* Container for the Fleet Efficiency section */
+.fleet-efficiency {
+    padding: 4rem 2rem; /* Adds padding around the section */
+    background-color: #101820; /* Background color */
+    color: #ffffff; /* Default text color */
+  }
+  
+  /* Container for the content */
+  .fleet-efficiency .container {
+    max-width: 1200px; /* Limits the width of the content */
+    margin: 0 auto; /* Centers the container */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+  }
+  
+  /* Heading */
+  .fleet-efficiency h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px; /* Font size for the heading */
+    font-weight: 600; /* Font weight for the heading */
+    line-height: 50px; /* Line height for the heading */
+    letter-spacing: 0.3px; /* Letter spacing for the heading */
+    color: #ffffff; /* Text color */
+    margin-bottom: 2rem; /* Adds space below the heading */
+  }
+  
+  /* Content section */
+  .fleet-efficiency .content {
+    display: flex; /* Flexbox for layout */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    justify-content: space-between; /* Distributes items evenly */
+    align-items: center; /* Aligns items vertically center */
+  }
+  
+  /* Image section */
+  .fleet-efficiency .image {
+    
+    flex: 1; /* Takes up equal space */
+    min-width: 800px;
+    max-width: 900px; /* Sets a maximum width for the image */
+  }
+  
+  /* Image size and styling */
+  .fleet-efficiency .image img {
+    max-width: 100%; /* Ensures image doesn't exceed its container's width */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes bottom space caused by inline-block */
+  }
+  
+  /* Text section */
+  .fleet-efficiency .text {
+    flex: 2; /* Takes up twice the space of the image */
+    padding-left: 2rem; /* Adds padding to the left of the text */
+  }
+  
+  /* Subheading */
+  .fleet-efficiency .text h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px; /* Font size for the subheading */
+    font-weight: 600; /* Font weight for the subheading */
+    line-height: 36px; /* Line height for the subheading */
+    color: #ffffff; /* Text color */
+    margin-bottom: 1rem; /* Adds space below the subheading */
+  }
+  
+  /* Paragraph text */
+  .fleet-efficiency .text p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; /* Font size for the paragraph */
+    font-weight: 400; /* Font weight for the paragraph */
+    line-height: 26px; /* Line height for the paragraph */
+    color: #ffffff; /* Text color */
+    margin-bottom: 1.5rem; /* Adds space below the paragraph */
+  }
+  
+  /* List items */
+  .fleet-efficiency .text ul {
+    list-style: none; /* Removes default list style */
+    padding: 0; /* Removes default padding */
+    margin-bottom: 1.5rem; /* Adds space below the list */
+  }
+  
+  .fleet-efficiency .text ul li {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; /* Font size for the list items */
+    font-weight: 400; /* Font weight for the list items */
+    line-height: 26px; /* Line height for the list items */
+    color: #ffffff; /* Text color */
+    margin-bottom: 0.5rem; /* Adds space below each list item */
+  }
+  
+  /* Call to Action button */
+  .fleet-efficiency .cta-button {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; /* Font size for the button */
+    font-weight: 600; /* Font weight for the button */
+    line-height: 26px; /* Line height for the button */
+    letter-spacing: 0.5px; /* Letter spacing for the button */
+    color: var(--Link, #0070C9); /* Text color */
+    background-color: transparent; /* Transparent background */
+    border: none; /* No border */
+    padding: 0; /* No padding */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    text-decoration: underline; /* Underlined text */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .fleet-efficiency .cta-button:hover {
+    color: #005999; /* Text color on hover */
+  }
+  
